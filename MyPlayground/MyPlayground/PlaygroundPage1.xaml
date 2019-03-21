@@ -1,0 +1,27 @@
+﻿<Page x:Class="MyPlayground.PlaygroundPage1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MyPlayground"
+      mc:Ignorable="d" 
+      
+      Title="PlaygroundPage1" Height="760" Width="1170" x:Name="ShellyOne" Background="DarkGray">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <Canvas Height="740" Width="1160">
+                <TextBox x:Name="Panel" Height="486" Canvas.Left="793" TextWrapping="NoWrap" Text="" Canvas.Top="10" Width="357" AcceptsReturn="True" AcceptsTab="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" BorderBrush="Green" BorderThickness="2"/>
+                <Button x:Name="BtSql" Content="Run Sql Query" Height="23" Canvas.Left="79" Canvas.Top="22" Width="124" BorderBrush="Green" BorderThickness="2" FontWeight="SemiBold" Click="BtSql_Click"/>
+                <TextBox x:Name="TbSql" Height="23" Canvas.Left="210" TextWrapping="NoWrap" Text="**SQL Query**" Canvas.Top="22" Width="554" AcceptsReturn="True" AcceptsTab="True" BorderBrush="Green" BorderThickness="2"/>
+                <TextBlock x:Name="FilePath" Canvas.Left="25" TextWrapping="Wrap" Text="File Path" Canvas.Top="64"/>
+                <Button x:Name="BtBrowse" Content="Browse" Height="23" Canvas.Left="79" Canvas.Top="62" Width="124" BorderBrush="Green" BorderThickness="2" FontWeight="SemiBold" Click="BtBrowse_Click"/>
+                <TextBox x:Name="TbFilePath" Height="23" Canvas.Left="210" TextWrapping="NoWrap" Text="" Canvas.Top="62" Width="480" AcceptsReturn="True" AcceptsTab="True" BorderBrush="Green" BorderThickness="2"/>
+                <Button x:Name="BtExtract" Content="Extract" Height="23" Canvas.Left="695" Canvas.Top="62" Width="70" BorderBrush="Green" BorderThickness="2" FontWeight="SemiBold" Click="BtExtract_Click"/>
+                <TextBlock x:Name="TblPatch" Canvas.Left="25" TextWrapping="Wrap" Text="Patch AdditionlInvDetail" Canvas.Top="105"/>
+                <TextBox x:Name="TbInvDetId" Height="23" Canvas.Left="170" TextWrapping="NoWrap" Text="InvDetailId" Canvas.Top="100" Width="80" AcceptsReturn="True" AcceptsTab="True" BorderBrush="Green" BorderThickness="2"/>
+                <Button x:Name="BtPatch" Content="Patch" Height="23" Canvas.Left="270" Canvas.Top="100" Width="70" BorderBrush="Green" BorderThickness="2" FontWeight="SemiBold" Click="BtPatch_Click"/>
+            </Canvas>
+        </ScrollViewer>
+
+    </Grid>
+</Page>
