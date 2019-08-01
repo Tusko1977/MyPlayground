@@ -20,6 +20,7 @@
                 <TextBlock x:Name="TblPatch" Canvas.Left="25" TextWrapping="Wrap" Text="Patch AdditionlInvDetail" Canvas.Top="105"/>
                 <TextBox x:Name="TbInvDetId" Height="23" Canvas.Left="170" TextWrapping="NoWrap" Text="InvDetailId" Canvas.Top="100" Width="80" AcceptsReturn="True" AcceptsTab="True" BorderBrush="Green" BorderThickness="2"/>
                 <Button x:Name="BtPatch" Content="Patch" Height="23" Canvas.Left="270" Canvas.Top="100" Width="70" BorderBrush="Green" BorderThickness="2" FontWeight="SemiBold" Click="BtPatch_Click"/>
+                <Button x:Name="btValidate" Content="Validate Json" Canvas.Left="793" Canvas.Top="501" Height="23" Width="90" BorderBrush="Green" BorderThickness="2" FontWeight="SemiBold" Click="BtValidate_Click"/>
             </Canvas>
         </ScrollViewer>
 

@@ -142,5 +142,14 @@ namespace MyPlayground
             }
 
         }
+
+        private void BtValidate_Click(object sender, RoutedEventArgs e)
+        {
+            Clipboard.SetText(Panel.Text);
+
+            JsonValidator jsonValidator = new JsonValidator();
+            jsonValidator.Show();
+
+        }
     }
 }

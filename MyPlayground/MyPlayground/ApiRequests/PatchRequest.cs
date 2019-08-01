@@ -22,6 +22,8 @@ namespace MyPlayground.ApiRequests
             _token = ConfigurationManager.AppSettings["token"];
         }
 
+        //Using HttpClientExtensions to create the patch
+
         public void SendRequest(string body, string InvDetId)
         {
             string _url = $"{_server}/Accounting/qa/Transaction/AdditionalInvDetail/{InvDetId}";
