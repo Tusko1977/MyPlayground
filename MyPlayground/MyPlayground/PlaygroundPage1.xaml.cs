@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using MyPlayground.SqlRequests;
 
 namespace MyPlayground
 {
@@ -149,6 +150,31 @@ namespace MyPlayground
 
             JsonValidator jsonValidator = new JsonValidator();
             jsonValidator.Show();
+
+        }
+
+        public string name;
+        public string route;
+        private void BtWebPortSend_Click(object sender, RoutedEventArgs e)
+        {
+            route = TbWebPortRoute.Text;
+            name = TbWebPortName.Text;
+
+            try
+            {
+                var request = new WebPortalPagesInsert();
+
+                request.SendRequest(route, name);
+
+                Panel.Text = "--- Page Inserted ----";
+            }
+            catch(Exception err)
+            {
+                if(err != null)
+                {
+                    Panel.Text = err.ToString();
+                }
+            }
 
         }
     }

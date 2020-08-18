@@ -34,11 +34,71 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.ComponentModel.DataAnnotations, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.ComponentModel.DataAnnotations.1.0.1\lib\net45\Hivedome.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Data.Entity.Metadata, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Data.Entity.Metadata.1.5.0\lib\net45\Hivedome.Data.Entity.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Extensions.EntityFramework, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Extensions.EntityFramework.2.0.1\lib\net45\Hivedome.Extensions.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Extensions.EntityFramework.Oracle, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Extensions.EntityFramework.Oracle.1.2.0\lib\net45\Hivedome.Extensions.EntityFramework.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Extensions.EntityFramework.SqlServer, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Extensions.EntityFramework.SqlServer.1.2.0\lib\net45\Hivedome.Extensions.EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Itas.Encryption, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Itas.Encryption.1.0.1\lib\net45\Hivedome.Itas.Encryption.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Itas.Entities, Version=13.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Itas.Entities.13.5.0\lib\net45\Hivedome.Itas.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Itas.Entities.HeritageMapping, Version=13.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Itas.Entities.HeritageMapping.13.5.0\lib\net45\Hivedome.Itas.Entities.HeritageMapping.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Itas.EntityFiltering, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Itas.EntityFiltering.3.1.1\lib\net45\Hivedome.Itas.EntityFiltering.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Itas.EntityFramework, Version=13.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Itas.EntityFramework.13.5.0\lib\net45\Hivedome.Itas.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Itas.EntityFramework.Abstractions, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Itas.EntityFramework.Abstractions.3.0.0\lib\net45\Hivedome.Itas.EntityFramework.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Itas.Expressions.Sql, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Itas.Expressions.Sql.1.2.0\lib\net45\Hivedome.Itas.Expressions.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Itas.Types, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Itas.Types.1.2.0\lib\net45\Hivedome.Itas.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Hivedome.Types, Version=1.1.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hivedome.Types.1.1.8\lib\net45\Hivedome.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="linq2db, Version=2.9.3.0, Culture=neutral, PublicKeyToken=e41013125f9e410a, processorArchitecture=MSIL">
+      <HintPath>..\packages\linq2db.2.9.3\lib\net45\linq2db.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.2.1100\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess.EntityFramework, Version=6.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.EntityFramework.12.2.1100\lib\net45\Oracle.ManagedDataAccess.EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Windows.Forms" />
@@ -62,6 +122,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="SqlRequests\WebPortalPagesInsert.cs" />
     <Page Include="JsonValidator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -76,6 +137,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Extensions\HttpClientExtensions.cs" />
+    <Compile Include="Extensions\ItasDbConfiguration.cs" />
+    <Compile Include="Extensions\ItasDbContextFactory.cs" />
     <Compile Include="JsonValidator.xaml.cs">
       <DependentUpon>JsonValidator.xaml</DependentUpon>
     </Compile>
